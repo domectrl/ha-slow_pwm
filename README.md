@@ -1,4 +1,4 @@
-# Integration Blueprint
+# Slow PWM integration
 
 [![GitHub Release][releases-shield]][releases]
 [![GitHub Activity][commits-shield]][commits]
@@ -6,7 +6,6 @@
 
 [![hacs][hacsbadge]][hacs]
 ![Project Maintenance][maintenance-shield]
-[![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
 
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
