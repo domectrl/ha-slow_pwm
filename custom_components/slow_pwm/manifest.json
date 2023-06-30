@@ -1,0 +1,18 @@
+{
+  "domain": "slow_pwm",
+  "name": "Slow PWM",
+  "codeowners": [
+    "@antonverburg"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/antonverburg/ha_slow_pwm/",
+  "homekit": {},
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/antonverburg/ha_slow_pwm//issues",
+  "quality_scale": "platinum",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "version": "0.0.0"
+}

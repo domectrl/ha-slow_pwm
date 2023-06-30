@@ -1,0 +1,48 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "cycle_time": "Duration to execute a single controller cycle",
+                    "maximum": "Maximum",
+                    "minimal_switch_time": "Shortest possible time a switch should be on- or off",
+                    "minimum": "Minimum",
+                    "mode": "Mode",
+                    "name": "Name",
+                    "outputs": "Output switch entities",
+                    "step": "Step size"
+                },
+                "data_description": {
+                    "maximum": "Value of the number where all switches will be continuously on.",
+                    "minimum": "Value of the number where all swiches will be continuously off.",
+                    "mode": "Mode of user interface elements",
+                    "step": "Step size of the number."
+                },
+                "description": "Create a number that controls one or multiple switches with pulse width modulation.",
+                "title": "Convert one or multiple switches"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "cycle_time": "Duration to execute a single controller cycle",
+                    "maximum": "Maximum",
+                    "minimum": "Minimum",
+                    "minmal_switch_time": "Shortest possible time a switch should be on- or off",
+                    "mode": "Mode",
+                    "outputs": "Output switch entities",
+                    "step": "Step size"
+                },
+                "data_description": {
+                    "maximum": "Value of the number where all switches will be continuously on.",
+                    "minimum": "Value of the number where all swiches will be continuously off.",
+                    "mode": "Mode of user interface elements",
+                    "step": "Step size of the number."
+                }
+            }
+        }
+    },
+    "title": "Use one or multiple switch outputs in Pulse-width-modulated mode"
+}

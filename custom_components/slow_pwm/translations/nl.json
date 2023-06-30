@@ -1,0 +1,48 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "cycle_time": "Duur van een enkele controller loop",
+                    "maximum": "Maximum",
+                    "minimal_switch_time": "Kortst mogelijke tijd dat een schakelaar aan- of uit mag zijn",
+                    "minimum": "Minimum",
+                    "mode": "Modus",
+                    "name": "Naam",
+                    "outputs": "Output schakelaar entiteiten",
+                    "step": "Stap grootte"
+                },
+                "data_description": {
+                    "maximum": "Waarde waarop alle schakelaars continu aan staan.",
+                    "minimum": "Waarde waarop alle schakelaars continu uit staan.",
+                    "mode": "Modus voor gebruikersinterface.",
+                    "step": "Stap grootte voor het aan te maken nummer."
+                },
+                "description": "Maak een numerieke output waarmee een- meerdere schakelaars bediend worden met puls breedte modulatie.",
+                "title": "Moduleer een- of meerdere schakelaars met Puls breedte modulatie (PWM)"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "cycle_time": "Duur van een enkele controller loop",
+                    "maximum": "Maximum",
+                    "minimum": "Minimum",
+                    "minmal_switch_time": "Kortst mogelijke tijd dat een schakelaar aan- of uit mag zijn",
+                    "mode": "Modus",
+                    "outputs": "Output schakelaar entiteiten",
+                    "step": "Stap grootte"
+                },
+                "data_description": {
+                    "maximum": "Waarde waarop alle schakelaars continu aan staan.",
+                    "minimum": "Waarde waarop alle schakelaars continu uit staan.",
+                    "mode": "Modus voor gebruikersinterface.",
+                    "step": "Stap grootte voor het aan te maken nummer."
+                }
+            }
+        }
+    },
+    "title": "Moduleer een- of meerdere schakelaars met Puls breedte modulatie (PWM)"
+}
