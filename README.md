@@ -18,10 +18,13 @@ Platform | Description
 
 ## Installation
 
-You can install this integration manually or via [HACS][hacs].
+### HACS (Preferred)
+1. [Add](http://homeassistant.local:8123/hacs/integrations) the custom integration repository: https://github.com/antonverburg/ha_slow_pwm
+2. Select `Slow PWM` in the Integration tab and click `download`
+3. Restart Home Assistant
+4. Done!
 
-For manual installation:
-
+### Manual
 1. Using the tool of choice open the directory (folder) for your HA configuration (where you find `configuration.yaml`).
 1. If you do not have a `custom_components` directory (folder) there, you need to create it.
 1. In the `custom_components` directory (folder) create a new folder called `slow_pwm`.
@@ -29,7 +32,7 @@ For manual installation:
 1. Place the files you downloaded in the new directory (folder) you created.
 1. Restart Home Assistant
 
-After installation, configuration is done in the UI:
+## Configuration:
 * In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Slow PWM"
 
 <!---->
