@@ -13,6 +13,6 @@
   "quality_scale": "platinum",
   "requirements": [],
   "ssdp": [],
-  "zeroconf": [],
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "zeroconf": []
 }
