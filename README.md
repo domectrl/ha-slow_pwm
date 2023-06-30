@@ -29,10 +29,8 @@ For manual installation:
 1. Place the files you downloaded in the new directory (folder) you created.
 1. Restart Home Assistant
 
-After installation:
+After installation, configuration is done in the UI:
 * In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Slow PWM"
-
-## Configuration is done in the UI
 
 <!---->
 
