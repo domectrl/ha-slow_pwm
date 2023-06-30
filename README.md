@@ -18,13 +18,19 @@ Platform | Description
 
 ## Installation
 
+You can install this integration manually or via [HACS][hacs].
+
+For manual installation:
+
 1. Using the tool of choice open the directory (folder) for your HA configuration (where you find `configuration.yaml`).
 1. If you do not have a `custom_components` directory (folder) there, you need to create it.
 1. In the `custom_components` directory (folder) create a new folder called `slow_pwm`.
 1. Download _all_ the files from the `custom_components/slow_pwm/` directory (folder) in this repository.
 1. Place the files you downloaded in the new directory (folder) you created.
 1. Restart Home Assistant
-1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Slow PWM"
+
+After installation:
+* In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Slow PWM"
 
 ## Configuration is done in the UI
 
@@ -38,7 +44,7 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 
 [commits-shield]: https://img.shields.io/github/commit-activity/y/antonverburg/ha_slow_pwm.svg?style=for-the-badge
 [commits]: https://github.com/antonverburg/ha_slow_pwm/commits/main
-[hacs]: https://github.com/hacs/integration
+[hacs]: https://hacs.xyz/
 [hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
 [discord]: https://discord.gg/Qa5fW2R
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg?style=for-the-badge
@@ -50,3 +56,4 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 [releases]: https://github.com/antonverburg/ha_slow_pwm/releases
 [pid_controller]: https://github.com/antonverburg/ha_pid_controller
 [pid_thermostat]: https://github.com/antonverburg/ha_pid_thermostat
+
