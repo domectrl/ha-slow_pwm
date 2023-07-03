@@ -1,4 +1,5 @@
 # Describes the format for available Number entity services
+# Currently reload service does not work (https://github.com/home-assistant/core/pull/93538).
 #reload:
 #  name: Reload
 #  description: Reload all slow_pwm entities.
