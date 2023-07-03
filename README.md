@@ -34,15 +34,7 @@ Platform | Description
 
 ## Configuration via user interface:
 * In the user interface go to "Configuration" -> "Integrations" click "+" and search for "Slow PWM"
-* Description of the configuration parameters:
-  - Name: The name the sensor should have.
-  - Output switch entities: `entity_id`'s for switches, must be toggle devices. When multiple outputs are selected, the range of 0..100% will be shared over the multiple switches. For example, with 2 switches at 50% output only the first switch will be on full time, at 75% the first switch will be on 100% of the time, and the second 50%.
-  - Minimum: Minimal value of the number. On this value, all switches will be switched off continuously.
-  - Maximum: Maximal value of the number. On this value, all switches will be switched on continuously.
-  - Cycle time: Duration to execute a single controller cycle.
-  - Minimal switch time: Shortest possible time a switch should be on or off. This parameter is typically useful in slow-switching applications like the wax valve of domestic heater systems.
-  - Step: Step size of the number.
-  - Mode: Mode of user interface elements.
+* For a description of the configuration parameters, see [Configuration parameters]
 
 ## YAML Configuration
 
