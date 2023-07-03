@@ -1,7 +1,7 @@
 # Describes the format for available Number entity services
-reload:
-  name: Reload
-  description: Reload all slow_pwm entities.
+#reload:
+#  name: Reload
+#  description: Reload all slow_pwm entities.
 
 set_value:
   name: Set

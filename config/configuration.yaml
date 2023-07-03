@@ -54,3 +54,27 @@ switch:
             data:
               name: DebugOutput
               message: Dummy Switch 4 Off
+      dummy_5:
+        turn_on:
+          - service: logbook.log
+            data:
+              name: DebugOutput
+              message: Dummy Switch 5 On
+        turn_off:
+          - service: logbook.log
+            data:
+              name: DebugOutput
+              message: Dummy Switch 5 Off
+
+number:
+  - platform: slow_pwm
+    name: Floorheater living room
+    outputs:
+      - "switch.dummy_5"
+    minimum: 10
+    maximum: 200
+    cycle_time:  {'hours':0, 'minutes':20, 'seconds': 00}
+    minimal_switch_time: {'hours':0, 'minutes':0, 'seconds': 30}
+    step: 3
+    mode: "auto"
+    unique_id: "MyUniqueID_1234"

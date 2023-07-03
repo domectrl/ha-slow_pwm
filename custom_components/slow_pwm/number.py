@@ -97,7 +97,8 @@ async def async_setup_platform(
     _discovery_info: DiscoveryInfoType | None = None,
 ) -> None:
     """Set up the sensor platform."""
-    await async_setup_reload_service(hass, DOMAIN, PLATFORMS)
+    # Reload service currently does not work (https://github.com/home-assistant/core/pull/93538)
+    # await async_setup_reload_service(hass, DOMAIN, PLATFORMS)
     async_add_entities([SlowPWMEntity(hass, config, config.get(CONF_UNIQUE_ID))])
 
 
