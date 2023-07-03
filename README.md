@@ -34,7 +34,7 @@ Platform | Description
 
 ## Configuration via user interface:
 * In the user interface go to "Configuration" -> "Integrations" click "+" and search for "Slow PWM"
-* For a description of the configuration parameters, see [Configuration parameters]
+* For a description of the configuration parameters, see [Configuration parameters](#configuration-parameters)
 
 ## YAML Configuration
 
@@ -51,7 +51,7 @@ number:
       - "switch.living_room_group1"
 ``` 
 
-### Configuration parameters:
+### Configuration parameters
 - name: Name of the slow_pwm. 
   > required: true | type: string  
 - outputs: `entity_id`'s for switches, must be toggle devices. When multiple outputs are selected, the range of 0..100% will be shared over the multiple switches. For example, with 2 switches at 50% output only the first switch will be on full time, at 75% the first switch will be on 100% of the time, and the second 50%.
