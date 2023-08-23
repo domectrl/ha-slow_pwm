@@ -1,12 +1,10 @@
 """The test for the slow_pwm number platform."""
 import asyncio
 import logging
-from unittest.mock import patch
 
 import pytest
 
-from homeassistant import config as hass_config
-from homeassistant.components import input_boolean, switch
+from homeassistant.components import input_boolean
 from homeassistant.components.number import ATTR_VALUE, SERVICE_SET_VALUE
 from custom_components.slow_pwm.const import (
     CONF_CYCLE_TIME,
@@ -20,7 +18,6 @@ from homeassistant.const import (
     CONF_MINIMUM,
     CONF_NAME,
     CONF_PLATFORM,
-    #    SERVICE_RELOAD,
     STATE_OFF,
     STATE_ON,
     Platform,
@@ -28,8 +25,6 @@ from homeassistant.const import (
 from homeassistant.core import HomeAssistant
 from homeassistant.setup import async_setup_component
 from homeassistant.util.unit_system import METRIC_SYSTEM
-
-from pytest_homeassistant_custom_component.common import get_fixture_path
 
 _LOGGER = logging.getLogger(__name__)
 
