@@ -34,11 +34,9 @@ from homeassistant.helpers.event import (
     async_track_point_in_utc_time,
     async_track_time_interval,
 )
-from homeassistant.helpers.reload import async_setup_reload_service
 from homeassistant.helpers.typing import ConfigType, DiscoveryInfoType
 import homeassistant.util.dt as dt_util
 
-from . import PLATFORMS
 from .const import (
     ATTR_CYCLE_TIME,
     ATTR_LAST_CYCLE_START,
@@ -52,7 +50,6 @@ from .const import (
     DEFAULT_CYCLE_TIME,
     DEFAULT_MODE,
     DEFAULT_SWITCH_TIME,
-    DOMAIN,
     MODE_AUTO,
     MODE_BOX,
     MODE_SLIDER,

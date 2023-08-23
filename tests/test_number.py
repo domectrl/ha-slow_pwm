@@ -346,7 +346,7 @@ async def test_minimal_switch_time(hass: HomeAssistant, setup_comp) -> None:
     """Test minimal switching time parameter."""
     output_switch = "input_boolean.test"
     slow_pwm = f"{Platform.NUMBER}.test"
-    cycle_time = 2.0
+    cycle_time = 4.0
     minimal_switch_time = 0.2 * cycle_time
     assert await async_setup_component(
         hass, input_boolean.DOMAIN, {"input_boolean": {"test": None}}
